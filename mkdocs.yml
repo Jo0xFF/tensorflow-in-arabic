@@ -38,7 +38,7 @@ plugins:
 
 
 nav:
-  - Home: "intro.ipynb"
+  - Home: "index.md"
   - CNN: "chapter_1.ipynb"
 
 
