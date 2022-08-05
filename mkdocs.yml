@@ -38,7 +38,7 @@ plugins:
 
 
 nav:
-  - Home: "index.md"
+  # - Home: "index.md"
   - Introduction: "intro.ipynb"
   - CNN: "chapter_1.ipynb"
 
