@@ -1,0 +1,51 @@
+site_name: TensorFlow in Arabic
+site_url: https://jo0xff.github.io/tensorflow-in-arabic/
+
+repo_url: https://github.com/Jo0xFF/tensorflow-in-arabic
+repo_name: Jo0xFF/tensorflow-in-arabic
+
+theme:
+  name: material
+  # nav_style: dark
+  highlightjs: true
+  features:
+    - navigation.top
+    - toc.integrate
+  palette:
+    # Palette toggle for dark mode
+
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+  shortcuts:
+      next: 78     # n
+      previous: 80 # p
+      search: 83   # s
+
+
+
+
+plugins:
+  - mkdocs-jupyter
+  - search
+
+
+nav:
+  - Home: "index.md"
+  - Introduction: "intro.ipynb"
+  - CNN: "chapter_1.ipynb"
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/Joxdrink
+    - icon: fontawesome/brands/github
+      link: https://github.com/Jo0xFF
