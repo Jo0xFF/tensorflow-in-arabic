@@ -40,6 +40,7 @@ plugins:
 nav:
   - Home: "index.md"
   - CNN: "chapter_1.ipynb"
+  - NLP: "NLP_Chapter2.ipynb"
 
 
 extra:
